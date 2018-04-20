@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabela Estilizada</title>
+    </head>
+    <body>
+        <table border="1" cellspacing = "0">
+            <thead>
+                <tr>
+                <th colspan="7"><h1>Lista de Presença</h1></th>
+                </tr>
+                <th>Trainee</th>
+                <th>Aula 1</th>
+                <th>Aula 2</th>
+                <th>Aula 3</th>
+                <th>Aula 4</th>
+                <th>Aula 5</th>
+                <th>Aula 6</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="aluno">Aluno 1</td>
+                    <td>Presente</td>
+                    <td>Falta</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                    <td>Falta</td>
+                    <td>Presente</td>
+                </tr>
+                <tr>
+                    <td class="aluno">Aluno 2</td>
+                    <td>Presente</td>
+                    <td>Falta</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                    <td>Falta</td>
+                    <td>Presente</td>
+                </tr>
+                <tr>
+                    <td class="aluno">Aluno 3</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                    <td>Falta</td>
+                    <td>Presente</td>
+                </tr>
+                <tr>
+                    <td class="aluno">Aluno 4</td>
+                    <td>Presente</td>
+                    <td>Falta</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                    <td>Presente</td>
+                </tr>
+                <tr class="espaço">
+                    <th colspan="7"> </th>
+                </tr>
+                <tr>
+                    <td class="aluno">Total de faltas</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+<style>
+    .aluno{
+        color: black;
+        padding: 15px;
+    }
+    .espaço{
+        height: 30px;
+    }
+    th{
+        padding: 15px;
+    }
+    td{
+        color: red;
+        padding: 15px;
+    }
+    table, td, th{
+        border: 1px solid black;
+    }
+</style>
